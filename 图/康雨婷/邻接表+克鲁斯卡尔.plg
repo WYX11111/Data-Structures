@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 邻接表+克鲁斯卡尔 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMIN-JY\AppData\Local\Temp\RSPAF57.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/邻接表+克鲁斯卡尔.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\数据结构\图\康雨婷\邻接表+克鲁斯卡尔.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ADMIN-JY\AppData\Local\Temp\RSPAF57.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+邻接表+克鲁斯卡尔.cpp
+
+
+
+<h3>Results</h3>
+邻接表+克鲁斯卡尔.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
+
+typedef struct node
+{
+	char c[10];
+	int len;
+	struct node *q;
+}keynode;
+
+typedef struct table
+{
+	char w;
+	keynode *p;
+}hash;
+
+void init_value(hash key[],char stack[] ,int information1[], int information2[] )
+{
+	int i;
+	for(i=0;i<100;i++)
+		key[i].p=NULL;
+	for(i=0;i<10;i++)
+		stack[i]='\0';
+	for(i=0;i<20;i++)
+	{
+		information1[i]=0;
+		information2[i]=0;
+	}
+}

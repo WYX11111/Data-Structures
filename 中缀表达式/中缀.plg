@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 中缀 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMIN-JY\AppData\Local\Temp\RSP29C1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/中缀.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\数据结构\中缀表达式\中缀.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ADMIN-JY\AppData\Local\Temp\RSP29C1.tmp"" 
+Creating temporary file "C:\Users\ADMIN-JY\AppData\Local\Temp\RSP29C2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/中缀.pdb" /debug /machine:I386 /out:"Debug/中缀.exe" /pdbtype:sept 
+".\Debug\中缀.obj"
+]
+Creating command line "link.exe @"C:\Users\ADMIN-JY\AppData\Local\Temp\RSP29C2.tmp""
+<h3>Output Window</h3>
+Compiling...
+中缀.cpp
+D:\数据结构\中缀表达式\中缀.cpp(138) : warning C4715: 'getpre' : not all control paths return a value
+D:\数据结构\中缀表达式\中缀.cpp(213) : warning C4715: 'operate' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+中缀.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
